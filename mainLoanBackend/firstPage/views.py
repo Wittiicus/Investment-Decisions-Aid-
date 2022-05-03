@@ -25,7 +25,9 @@ def takeFile(fileRequest):
     filePath = '.' + filePathName
 
     data = pd.read_csv(filePath)
-    score = model.predict_proba(dataFrm)[:,-1]
+    score = model.predict_proba(data)[:,-1]
 
     score = {j:k for j,k in zip(data['Loan ID'], score)}
-    return JsonResponse({'score': 1})
+
+    sorted(score.items(), key=lambda x: x[1], reverse = True)
+    return JsonResponse({'result': score})
