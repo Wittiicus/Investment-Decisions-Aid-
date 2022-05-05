@@ -3,6 +3,7 @@ import './App.css';
 import UploadFileLoc from './uploadFileLoc';
 import Home from './Home';
 import Navigator from './NavigationBar';
+import {BrowserRouter as Router, Route, Switch} from  'react-router-dom';
 
 
 
@@ -10,9 +11,13 @@ function App() {
     return(
         <div className = "App">
             <Navigator/>
-            <h1>Hello World</h1>
-            <UploadFileLoc/>
             <Home/>
+            <Router>
+                <Switch>
+                    <Route exact path="/" element={<Home/>} />
+                    <Route exact path="/batchProcessing" element = {<UploadFileLoc/>} />
+                </Switch>
+            </Router>
         </div>
     );
 }
