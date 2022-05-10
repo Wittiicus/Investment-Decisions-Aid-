@@ -10,6 +10,6 @@ Add a database and account system to allow users to have a record of all their t
 
 ## Languages Used
 
-![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python), ![Java](https://img.shields.io/badge/-Java-333333?style=flat&logo=Java&logoColor=007396), ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5), CSS, ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript), <a href="http://www.djangoproject.com/"><img src="https://www.djangoproject.com/m/img/badges/djangosite100x25.gif" border="0" alt="A Django site." title="A Django site." /></a>
+![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python), ![Java](https://img.shields.io/badge/-Java-333333?style=flat&logo=Java&logoColor=007396), ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5), ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript), <a href="http://www.djangoproject.com/"><img src="https://www.djangoproject.com/m/img/badges/djangosite100x25.gif" border="0" alt="A Django site." title="A Django site." /></a>, ![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
 
 
